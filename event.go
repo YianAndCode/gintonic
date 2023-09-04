@@ -3,7 +3,8 @@ package gintonic
 import (
 	"encoding/json"
 	"errors"
-	"gintonic/lmdata"
+
+	"github.com/YianAndCode/gintonic/lmdata"
 )
 
 const (

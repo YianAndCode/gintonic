@@ -2,7 +2,8 @@ package gintonic
 
 import (
 	"context"
-	"gintonic/lmdata"
+
+	"github.com/YianAndCode/gintonic/lmdata"
 )
 
 type DefaultHandler func(ctx context.Context, eventName string, meta lmdata.Meta, data interface{}) error

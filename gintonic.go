@@ -5,9 +5,9 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"errors"
-	"gintonic/lmdata"
 	"net/http"
 
+	"github.com/YianAndCode/gintonic/lmdata"
 	"github.com/gin-gonic/gin"
 )
 
