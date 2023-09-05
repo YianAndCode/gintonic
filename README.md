@@ -4,7 +4,7 @@ Documentation | [中文文档](README_zh.md)
 
 ## Introduction
 
-Gin&Tonic is a `LemonSqueezy` webhook library for `gin` framework that lets you build `LemonSqueezy`` webhooks quickly and elegantly
+Gin&Tonic is a `LemonSqueezy` webhook library for `gin` framework that lets you build `LemonSqueezy` webhooks quickly and elegantly
 
 ## Quick start
 
@@ -74,7 +74,7 @@ Setting handler is done using the `gintonic.With[EventName]Handler()` option fun
 
 ### Handler
 
-Handler definitions are in `handler.go``, divided into two types: `Event Handler` and `DefaultHandler`.
+Handler definitions are in `handler.go`, divided into two types: `Event Handler` and `DefaultHandler`.
 
 Their relationship is like `case` and `default` in a `switch` statement. When instantiating a gintonic instance with `New`, the `Handler` registered using `gintonic.WithXXXHandler(XXX)` can be considered a `case`. When receiving a `webhook` event, `gintonic` will judge which `case` it belongs to and then call the corresponding `handler`. If it cannot find one, it will look for a `DefaultHandler`. If it cannot find the corresponding `Event Handler` and no `DefaultHandler` is set, then it will return an error.
 
