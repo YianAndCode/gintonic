@@ -1,5 +1,7 @@
 # Gin&Tonic
 
+![概览](glance.jpg)
+
 中文文档 | [Documentation](README.md)
 
 ## 介绍
